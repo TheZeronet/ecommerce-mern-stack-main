@@ -74,14 +74,7 @@ export default function Header() {
                     <i class="fa-solid fa-heart"></i>
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    to="/location"
-                    className="rounded-circle btn-wishlist bg-light p-2 mx-1"
-                  >
-                    <i class="fa-solid fa-location-dot"></i>
-                  </NavLink>
-                </li>
+
                 <li className="d-lg-none">
                   <NavLink
                     to="#"

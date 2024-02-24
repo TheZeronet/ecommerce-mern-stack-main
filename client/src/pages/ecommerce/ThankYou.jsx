@@ -32,7 +32,7 @@ export default function ThankYou() {
                     </div>
                 </section>
                 <footer >
-                    <p style={{ color: 'black' }}>©copyright | <h1 style={{ color: 'black', fontWeight: 'bold' ,display:'inline-block' ,fontSize : '24px'}}>GantaVenkataKousik </h1>  |  2023</p>
+                    <p style={{ color: 'black' }}>©copyright | <h1 style={{ color: 'black', fontWeight: 'bold' ,display:'inline-block' ,fontSize : '24px'}}>Pixel-Cartel</h1>  |  2024</p>
                 </footer>
             </div>
             <Confetti

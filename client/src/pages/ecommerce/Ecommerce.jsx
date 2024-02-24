@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer.jsx";
 import Body from "./components/body/Body.jsx";
 import { useUser } from '../user/UserContext.jsx';
 import Header2 from "./components/header/Header2.jsx";
+import Footer2 from "../../components/Footer2.jsx";
 
 export default function Ecommerce() {
     
@@ -20,6 +21,7 @@ export default function Ecommerce() {
                 <Header />
                 <Header2 />
                 <Body />
+                <Footer />
             </>
 
         </>
