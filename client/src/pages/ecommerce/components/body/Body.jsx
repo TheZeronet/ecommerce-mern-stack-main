@@ -20,17 +20,16 @@ function Body() {
               <div className="banner-blocks">
                 <div className="banner-ad large bg-info block-1">
                   <div className="swiper main-swiper">
-                    <div className="swiper-wrapper">
+                    <div className="swiper-wrapper" style={{color:'white',backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://sm.ign.com/ign_nordic/cover/p/persona-3-/persona-3-reload_c3ab.jpg")'}}>                      
                       <div className="swiper-slide">
-                        <div className="row banner-content p-5">
+                        <div className="row banner-content p-5" >
                           <div className="content-wrapper col-md-7">
-                            <div className="categories my-3">100% natural</div>
-                            <h3 className="display-4">
-                              Fresh Smoothie &amp; Summer Juice
+                            <div className="categories my-3">Atlus &amp; Sega</div>
+                            <h3 className="display-4" style={{color: '#83C8DD'}}>
+                            Persona 3: Reload 
                             </h3>
                             <p>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Dignissim massa diam elementum.
+                            Persona 3 Reload: Enhanced version with new features, quests, and content, enriching the original experience.
                             </p>
                             <NavLink
                               to="#"
@@ -71,14 +70,15 @@ function Body() {
                 <div
                   className="banner-ad bg-success-subtle block-2"
                   style={{
-                    background: 'url("images/ad-image-1.png") no-repeat',
-                    backgroundPosition: "right bottom"
-                  }}
-                >
-                  <div className="row banner-content p-5">
-                    <div className="content-wrapper col-md-7">
-                      <div className="categories sale mb-3 pb-3">20% off</div>
-                      <h3 className="banner-title">Fruits &amp; Vegetables</h3>
+                    color: '#F0BC2C',
+                    background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://freaking.news/wp-content/uploads/2023/09/Migliori-Giochi-JRPG-Game-Pass.jpg")',
+                    backgroundPosition: "center center",
+                    backgroundSize: "cover"
+                  }}>
+                  <div className="row banner-content p-5" >
+                    <div className="content-wrapper col-md-7" >
+                      <div className="categories sale mb-3 pb-3" style={{color: '#EAECE7'}}>20% off</div>
+                        <h3 className="banner-title" style={{color: '#EAECE7'}}>All JRPG Games</h3>
                       <NavLink to="#" className="d-flex align-items-center nav-link">
                         Shop Collection{" "}
                         <svg width={24} height={24}>
@@ -91,14 +91,16 @@ function Body() {
                 <div
                   className="banner-ad bg-danger block-3"
                   style={{
-                    background: 'url("images/ad-image-2.png") no-repeat',
-                    backgroundPosition: "right bottom"
+                    color: '#F0BC2C',
+                    background: 'url("https://m.economictimes.com/thumb/msid-104940359,width-1600,height-900,resizemode-4,imgsize-398056/gaming-accessories.jpg")',
+                    backgroundPosition: "center center",
+                    backgroundSize: "cover"
                   }}
                 >
                   <div className="row banner-content p-5">
                     <div className="content-wrapper col-md-7">
-                      <div className="categories sale mb-3 pb-3">15% off</div>
-                      <h3 className="item-title">Baked Products</h3>
+                      <div className="categories sale mb-3 pb-3" style={{color: '#EAECE7'}}>15% off</div>
+                      <h3 className="item-title" style={{color: '#EAECE7'}}>Accessories</h3>
                       <NavLink to="#" className="d-flex align-items-center nav-link">
                         Shop Collection{" "}
                         <svg width={24} height={24}>
@@ -118,19 +120,8 @@ function Body() {
           <div className="row">
             <div className="col-md-12">
               <div className="section-header d-flex flex-wrap justify-content-between mb-5">
-                <h2 className="section-title">Category</h2>
+                <h2 className="section-title" style={{color: '#E9EFE7', fontSize: '40px', textAlign: 'center'}}>Store</h2>
                 <div className="d-flex align-items-center">
-                  <NavLink to="#" className="btn-link text-decoration-none">
-                    View All Categories →
-                  </NavLink>
-                  <div className="swiper-buttons">
-                    <button className="swiper-prev category-carousel-prev btn btn-yellow">
-                      ❮
-                    </button>
-                    <button className="swiper-next category-carousel-next btn btn-yellow">
-                      ❯
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
@@ -147,63 +138,7 @@ function Body() {
             </div>
           </section>
           <section className="py-5">
-            <div className="container-fluid">
-              <h2 className="my-5">People are also looking for</h2>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Blue diamon almonds
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Angie’s Boomchickapop Corn
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Salty kettle Corn
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Chobani Greek Yogurt
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Sweet Vanilla Yogurt
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Foster Farms Takeout Crispy wings
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Warrior Blend Organic
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Chao Cheese Creamy
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Chicken meatballs
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Blue diamon almonds
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Angie’s Boomchickapop Corn
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Salty kettle Corn
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Chobani Greek Yogurt
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Sweet Vanilla Yogurt
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Foster Farms Takeout Crispy wings
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Warrior Blend Organic
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Chao Cheese Creamy
-              </NavLink>
-              <NavLink to="#" className="btn btn-warning me-2 mb-2">
-                Chicken meatballs
-              </NavLink>
-            </div>
+          
           </section>
           <section className="py-5">
             <div className="container-fluid">
@@ -228,7 +163,6 @@ function Body() {
                         <div className="card-body p-0">
                           <h5>Free delivery</h5>
                           <p className="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipi elit.
                           </p>
                         </div>
                       </div>
@@ -255,7 +189,6 @@ function Body() {
                         <div className="card-body p-0">
                           <h5>100% secure payment</h5>
                           <p className="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipi elit.
                           </p>
                         </div>
                       </div>
@@ -282,7 +215,6 @@ function Body() {
                         <div className="card-body p-0">
                           <h5>Quality guarantee</h5>
                           <p className="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipi elit.
                           </p>
                         </div>
                       </div>
@@ -309,7 +241,6 @@ function Body() {
                         <div className="card-body p-0">
                           <h5>guaranteed savings</h5>
                           <p className="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipi elit.
                           </p>
                         </div>
                       </div>
@@ -336,7 +267,6 @@ function Body() {
                         <div className="card-body p-0">
                           <h5>Daily offers</h5>
                           <p className="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipi elit.
                           </p>
                         </div>
                       </div>

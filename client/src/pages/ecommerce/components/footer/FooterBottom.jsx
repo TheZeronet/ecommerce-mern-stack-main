@@ -6,7 +6,7 @@ const FooterBottom = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-6 copyright">
-            <p>© 2023 GVKMart. All rights reserved.</p>
+            <p>© 2024 Pixel-Cartel. All rights reserved.</p>
           </div>
         </div>
       </div>

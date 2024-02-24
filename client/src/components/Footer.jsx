@@ -6,7 +6,7 @@ export default function Footer(){
         <>
             <footer>
             <p className="footer copyright-text">
-                ©copyright | <span>GantaVenkataKousik </span> | 2023
+                ©copyright | <span> pixel-Cartel </span> | 2024
             </p>
             </footer>
         </>

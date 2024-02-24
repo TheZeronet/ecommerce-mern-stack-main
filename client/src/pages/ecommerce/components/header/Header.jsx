@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import {NavLink} from "react-router-dom"
-import logo from '../../Images/GVK2.png'; 
+import logo from '../../Images/p.c.png'; 
 
 export default function Header() {
   return (
@@ -17,14 +17,7 @@ export default function Header() {
             </div>
             <div className="col-sm-6 offset-sm-2 offset-md-0 col-lg-5 d-none d-lg-block ml-auto">
               <div className="search-bar row bg-light p-2 my-2 rounded-4">
-                <div className="col-md-4 d-none d-md-block">
-                  <select className="form-select border-0 bg-transparent">
-                    <option>All Categories</option>
-                    <option>CLOTHES</option>
-                    <option>DRINKS</option>
-                    <option>GADGETS</option>
-                  </select>
-                </div>
+
                 <div className="col-11 col-md-7">
                   <form
                     id="search-form"
@@ -36,7 +29,7 @@ export default function Header() {
                       type="text"
                       id="input"
                       className="form-control border-0 bg-transparent"
-                      placeholder="Search for more than 20,000 products"
+                      placeholder="Search Store"
                     />
                   </form>
                 </div>

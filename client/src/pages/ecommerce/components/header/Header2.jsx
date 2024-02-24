@@ -36,36 +36,39 @@ export default function Header2() {
                     />
                   </div>
                   <div className="offcanvas-body">
-                    <select className="filter-categories border-0 mb-0 me-5">
-                      <option>Shop by Departments</option>
-                      <option>Groceries</option>
-                      <option>Drinks</option>
-                      <option>Chocolates</option>
-                    </select>
                     <ul className="navbar-nav justify-content-end menu-list list-unstyled d-flex gap-md-3 mb-0">
-                      <li className="nav-item active">
-                        <NavLink to="#women" className="nav-link">
-                          Women
-                        </NavLink>
-                      </li>
-                      <li className="nav-item dropdown">
-                        <NavLink to="#men" className="nav-link">
-                          Men
+                      <li className="nav-item active" >
+                        <NavLink to="#home" className="nav-link" style={{color: '#E9EFE7'}}>
+                          Home
                         </NavLink>
                       </li>
                       <li className="nav-item">
-                        <NavLink to="#kids" className="nav-link">
-                          Kids
+                        <NavLink to="#games" className="nav-link" style={{color: '#E9EFE7'}}>
+                          Games
                         </NavLink>
                       </li>
                       <li className="nav-item">
-                        <NavLink to="#accessories" className="nav-link">
+                        <NavLink to="#accessories" className="nav-link" style={{color: '#E9EFE7'}}>
                           Accessories
                         </NavLink>
                       </li>
+                      <li className="nav-item">
+                        <NavLink to="#sale" className="nav-link" style={{color: '#E9EFE7'}}>
+                          Sale
+                        </NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <NavLink to="#blog" className="nav-link" style={{color: '#E9EFE7'}}>
+                          Blog
+                        </NavLink>
+                      </li>
+
+
+
+
                       <li className="nav-item dropdown">
                         <NavLink
-                          className="nav-link dropdown-toggle"
+                          className="nav-link dropdown-toggle" style={{color: '#E9EFE7'}}
                           role="button"
                           id="pages"
                           data-bs-toggle="dropdown"
@@ -171,21 +174,6 @@ export default function Header2() {
                             </NavLink>
                           </li>
                         </ul>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink to="#brand" className="nav-link">
-                          Brand
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink to="#sale" className="nav-link">
-                          Sale
-                        </NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink to="#blog" className="nav-link">
-                          Blog
-                        </NavLink>
                       </li>
                     </ul>
                   </div>

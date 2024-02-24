@@ -31,26 +31,15 @@ function MainNav () {
                 />
               </div>
               <div className='offcanvas-body'>
-                <select className='filter-categories border-0 mb-0 me-5'>
-                  <option>Shop by Departments</option>
-                  <option>Groceries</option>
-                  <option>Drinks</option>
-                  <option>Chocolates</option>
-                </select>
                 <ul className='navbar-nav justify-content-end menu-list list-unstyled d-flex gap-md-3 mb-0'>
-                  <li className='nav-item active'>
-                    <a href='#women' className='nav-link'>
-                      Women
-                    </a>
-                  </li>
-                  <li className='nav-item dropdown'>
-                    <a href='#men' className='nav-link'>
-                      Men
+                <li className='nav-item active'>
+                    <a href='#home' className='nav-link'>
+                      Home
                     </a>
                   </li>
                   <li className='nav-item'>
-                    <a href='#kids' className='nav-link'>
-                      Kids
+                    <a href='#games' className='nav-link'>
+                      Games
                     </a>
                   </li>
                   <li className='nav-item'>
@@ -58,6 +47,19 @@ function MainNav () {
                       Accessories
                     </a>
                   </li>
+                  <li className='nav-item'>
+                    <a href='#sale' className='nav-link'>
+                      Sale
+                    </a>
+                  </li>
+                  <li className='nav-item'>
+                    <a href='#blog' className='nav-link'>
+                      Blog
+                    </a>
+                  </li>
+
+
+
                   <li className='nav-item dropdown'>
                     <a
                       className='nav-link dropdown-toggle'
@@ -166,21 +168,6 @@ function MainNav () {
                         </a>
                       </li>
                     </ul>
-                  </li>
-                  <li className='nav-item'>
-                    <a href='#brand' className='nav-link'>
-                      Brand
-                    </a>
-                  </li>
-                  <li className='nav-item'>
-                    <a href='#sale' className='nav-link'>
-                      Sale
-                    </a>
-                  </li>
-                  <li className='nav-item'>
-                    <a href='#blog' className='nav-link'>
-                      Blog
-                    </a>
                   </li>
                 </ul>
               </div>
