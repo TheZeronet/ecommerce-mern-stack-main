@@ -39,7 +39,7 @@ dotenv.config();
 connectDB();
 
 app.get('/', (req, res) => {
-    res.json({ message: "hellooo chapri..." });
+    res.json({ message: "hellooo V" });
 })
 
 app.use("/api/v1/auth",authRoute); 

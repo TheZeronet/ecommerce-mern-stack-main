@@ -7,13 +7,13 @@ export const fetchProductsController = async (req, res) => {
         // Iterate through products using for...of to ensure proper async handling
         const all_products = [
             {
-                "name":"VenkataKousik",
+                "name":"Persona 3: Reload",
                 "producerID":"651148b992e0996a8e2b7542",
-                "productName":"Wooden Money bank",
-                "imgURL":"https://images.meesho.com/images/products/319942427/audpq_512.webp",
-                "info":"Name : India Wood Carving Wooden Handmade Small Size Hut Design Money Bank@Material : Wood,Type : Handicraft Piggy Bank@Battery Required : No@Battery Included : No@Net Quantity (N) : 1@India wood carving wooden handmade small size hut design money bank for kids as a toy and for decoration as a showpiece. It have 2 keys inside it and 1 lock. It's made of best quality wood.@Country of Origin : India",
-                "price":12,
-                "category":"Wooden Crafts"
+                "productName":"Atlus game",
+                "imgURL":"https://personacentral.com/wp-content/uploads/2023/08/P3R-Key-Art.jpg",
+                "info": "Name : Persona 3: Re:Load, a rebirth of shadows and destiny awaits.",
+                "price": 4500,
+                "category": "RPG"
             },
             {
                 "name":"Akhilendra",
