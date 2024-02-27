@@ -1,7 +1,5 @@
-import Products from './Products.jsx'
-import Footer from "../footer/Footer.jsx";
-import {NavLink} from "react-router-dom";
-
+import Products from "./Products.jsx";
+import { NavLink } from "react-router-dom";
 
 function Body() {
   return (
@@ -11,7 +9,7 @@ function Body() {
         style={{
           backgroundImage: 'url("images/background-pattern.jpg")',
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover"
+          backgroundSize: "cover",
         }}
       >
         <div className="container-fluid">
@@ -20,16 +18,30 @@ function Body() {
               <div className="banner-blocks">
                 <div className="banner-ad large bg-info block-1">
                   <div className="swiper main-swiper">
-                    <div className="swiper-wrapper" style={{color:'white',backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://sm.ign.com/ign_nordic/cover/p/persona-3-/persona-3-reload_c3ab.jpg")'}}>                      
+                    <div
+                      className="swiper-wrapper"
+                      style={{
+                        color: "white",
+                        backgroundImage:
+                          'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://sm.ign.com/ign_nordic/cover/p/persona-3-/persona-3-reload_c3ab.jpg")',
+                      }}
+                    >
                       <div className="swiper-slide">
-                        <div className="row banner-content p-5" >
+                        <div className="row banner-content p-5">
                           <div className="content-wrapper col-md-7">
-                            <div className="categories my-3">Atlus &amp; Sega</div>
-                            <h3 className="display-4" style={{color: '#83C8DD'}}>
-                            Persona 3: Reload 
+                            <div className="categories my-3">
+                              Atlus &amp; Sega
+                            </div>
+                            <h3
+                              className="display-4"
+                              style={{ color: "#83C8DD" }}
+                            >
+                              Persona 3: Reload
                             </h3>
                             <p>
-                            Persona 3 Reload: Enhanced version with new features, quests, and content, enriching the original experience.
+                              Persona 3 Reload: Enhanced version with new
+                              features, quests, and content, enriching the
+                              original experience.
                             </p>
                             <NavLink
                               to="#"
@@ -38,15 +50,18 @@ function Body() {
                               Shop Now
                             </NavLink>
                           </div>
-                          <div className="img-wrapper col-md-5">
-                          </div>
+                          <div className="img-wrapper col-md-5"></div>
                         </div>
                       </div>
                       <div className="swiper-slide">
                         <div className="row banner-content p-5">
                           <div className="content-wrapper col-md-7">
-                            <div className="categories mb-3 pb-3">100% natural</div>
-                            <h3 className="banner-title">Heinz Tomato Ketchup</h3>
+                            <div className="categories mb-3 pb-3">
+                              100% natural
+                            </div>
+                            <h3 className="banner-title">
+                              Heinz Tomato Ketchup
+                            </h3>
                             <p>
                               Lorem ipsum dolor sit amet, consectetur adipiscing
                               elit. Dignissim massa diam elementum.
@@ -59,7 +74,10 @@ function Body() {
                             </NavLink>
                           </div>
                           <div className="img-wrapper col-md-5">
-                            <img src="product-thumb-2.png" className="img-fluid" />
+                            <img
+                              src="product-thumb-2.png"
+                              className="img-fluid"
+                            />
                           </div>
                         </div>
                       </div>
@@ -70,16 +88,28 @@ function Body() {
                 <div
                   className="banner-ad bg-success-subtle block-2"
                   style={{
-                    color: '#F0BC2C',
-                    background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://freaking.news/wp-content/uploads/2023/09/Migliori-Giochi-JRPG-Game-Pass.jpg")',
+                    color: "#F0BC2C",
+                    background:
+                      'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://freaking.news/wp-content/uploads/2023/09/Migliori-Giochi-JRPG-Game-Pass.jpg")',
                     backgroundPosition: "center center",
-                    backgroundSize: "cover"
-                  }}>
-                  <div className="row banner-content p-5" >
-                    <div className="content-wrapper col-md-7" >
-                      <div className="categories sale mb-3 pb-3" style={{color: '#EAECE7'}}>20% off</div>
-                        <h3 className="banner-title" style={{color: '#EAECE7'}}>All JRPG Games</h3>
-                      <NavLink to="#" className="d-flex align-items-center nav-link">
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <div className="row banner-content p-5">
+                    <div className="content-wrapper col-md-7">
+                      <div
+                        className="categories sale mb-3 pb-3"
+                        style={{ color: "#EAECE7" }}
+                      >
+                        20% off
+                      </div>
+                      <h3 className="banner-title" style={{ color: "#EAECE7" }}>
+                        All JRPG Games
+                      </h3>
+                      <NavLink
+                        to="#"
+                        className="d-flex align-items-center nav-link"
+                      >
                         Shop Collection{" "}
                         <svg width={24} height={24}>
                           <use xlinkto="#arrow-right" />
@@ -91,17 +121,28 @@ function Body() {
                 <div
                   className="banner-ad bg-danger block-3"
                   style={{
-                    color: '#F0BC2C',
-                    background: 'url("https://m.economictimes.com/thumb/msid-104940359,width-1600,height-900,resizemode-4,imgsize-398056/gaming-accessories.jpg")',
+                    color: "#F0BC2C",
+                    background:
+                      'url("https://m.economictimes.com/thumb/msid-104940359,width-1600,height-900,resizemode-4,imgsize-398056/gaming-accessories.jpg")',
                     backgroundPosition: "center center",
-                    backgroundSize: "cover"
+                    backgroundSize: "cover",
                   }}
                 >
                   <div className="row banner-content p-5">
                     <div className="content-wrapper col-md-7">
-                      <div className="categories sale mb-3 pb-3" style={{color: '#EAECE7'}}>15% off</div>
-                      <h3 className="item-title" style={{color: '#EAECE7'}}>Accessories</h3>
-                      <NavLink to="#" className="d-flex align-items-center nav-link">
+                      <div
+                        className="categories sale mb-3 pb-3"
+                        style={{ color: "#EAECE7" }}
+                      >
+                        15% off
+                      </div>
+                      <h3 className="item-title" style={{ color: "#EAECE7" }}>
+                        Accessories
+                      </h3>
+                      <NavLink
+                        to="#"
+                        className="d-flex align-items-center nav-link"
+                      >
                         Shop Collection{" "}
                         <svg width={24} height={24}>
                           <use xlinkto="#arrow-right" />
@@ -115,24 +156,29 @@ function Body() {
           </div>
         </div>
       </section>
+
       <section className="py-5 overflow-hidden">
-        <div className="container-fluid">
+        <div>
           <div className="row">
-            <div className="col-md-12">
-              <div className="section-header d-flex flex-wrap justify-content-between mb-5">
-                <h2 className="section-title" style={{color: '#E9EFE7', fontSize: '40px', textAlign: 'center'}}>Store</h2>
-                <div className="d-flex align-items-center">
-                </div>
-              </div>
-            </div>
+            <h2
+              className="section-title"
+              style={{
+                color: "#E9EFE7",
+                fontSize: "40px",
+                textAlign: "left",
+                paddingLeft: "50px",
+              }}
+            >
+              Games
+            </h2>
+            <hr style={{ borderBottom: "3px solid white" }} />
           </div>
+
           <section className="py-5">
-            <div className="container-fluid">
+            <div style={{ paddingLeft: "50px" }}>
               <div className="row">
-                <div className="col-md-12">
-                  <div className="bootstrap-tabs product-tabs">
-                    <Products />
-                  </div>
+                <div>
+                  <Products />
                 </div>
               </div>
             </div>
@@ -140,7 +186,7 @@ function Body() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
-export default Body
+export default Body;

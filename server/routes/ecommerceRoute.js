@@ -1,6 +1,6 @@
 import express from 'express';
 import {fetchProductsController} from  '../controllers/ecommerce/fetchProductsControllers.js';
-import { addToCartController,displayCartController,addToWishlistController,checkoutController,removeProductController } from '../controllers/ecommerce/cartController.js';
+import { addToCartController, displayCartController, addToWishlistController, checkoutController, removeProductController } from '../controllers/ecommerce/cartController.js';
 
 
 //router object

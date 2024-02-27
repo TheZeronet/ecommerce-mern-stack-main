@@ -327,10 +327,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-h1,
-h2,
-h3,
-h4,
 h5,
 h6 {
   font-family: var(--heading-font);
@@ -697,7 +693,7 @@ gap: 25px;
 }
 .product-card .logo-cart i{
   font-size: 27px;
-  color: #707070;
+  color: #08f663;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -723,7 +719,7 @@ gap: 25px;
   opacity: 1;
 }
 .product-card .shoe-details .shoe_name{
-  color: #161616;
+  color: #d7d4e1;
   font-size: 25px;
 	font-weight: 600;
 }

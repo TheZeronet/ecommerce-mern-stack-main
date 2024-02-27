@@ -1,11 +1,11 @@
-import React,{useState} from 'react';
-import {NavLink} from "react-router-dom"
-import logo from '../../Images/p.c.png'; 
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import logo from "../../Images/pc.png";
 
 export default function Header() {
   return (
     <>
-      <header style={{ color: 'black'}} >
+      <header style={{ color: "black" }}>
         <div className="container-fluid">
           <div className="row py-3 border-bottom">
             <div className="col-sm-4 col-lg-3 text-center text-sm-start">
@@ -17,7 +17,6 @@ export default function Header() {
             </div>
             <div className="col-sm-6 offset-sm-2 offset-md-0 col-lg-5 d-none d-lg-block ml-auto">
               <div className="search-bar row bg-light p-2 my-2 rounded-4">
-
                 <div className="col-11 col-md-7">
                   <form
                     id="search-form"
@@ -51,14 +50,15 @@ export default function Header() {
             <div className="col-sm-8 col-lg-4 d-flex justify-content-end gap-5 align-items-center mt-4 mt-sm-0 justify-content-center justify-content-sm-end">
               <ul className="d-flex justify-content align-items-center list-unstyled m-0">
                 <li>
-                  <NavLink to="/ecommerce" className="rounded-circle bg-light p-2 mx-1">
-                  <i class="fa-solid fa-house"></i>
+                  <NavLink
+                    to="/ecommerce"
+                    className="rounded-circle bg-light p-2 mx-1"
+                  >
+                    <i class="fa-solid fa-house"></i>
                   </NavLink>
                 </li>
                 <li className="d-flex align-items-center">
-                  <span className="text-muted fs-6 p-0 m-0">
-                    
-                  </span>
+                  <span className="text-muted fs-6 p-0 m-0"></span>
                   <NavLink
                     to="/user/dashboard?userid=<%= encodeURIComponent(userid) %>"
                     className="rounded-circle d-flex text-decoration-none btn-wishlist bg-light p-2 mx-1"
@@ -108,7 +108,6 @@ export default function Header() {
                   data-bs-target="#offcanvasCart"
                   aria-controls="offcanvasCart"
                 >
-
                   <NavLink to="/ecommerce/cart">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -127,9 +126,7 @@ export default function Header() {
             </div>
           </div>
         </div>
-
       </header>
-
     </>
-  )
+  );
 }
